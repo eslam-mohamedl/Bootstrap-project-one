@@ -1,0 +1,183 @@
+:root {
+    --dark-blue:#19283f;
+    --yellow: #ffc400;
+    --red :#ff3150;
+    --section-color: #eff7fa;
+}
+a{
+    text-decoration: none;
+}
+.navbar .navbar-toggler{
+    color: white;
+    border-color: white;
+}
+.navbar .navbar-toggler:focus{
+    border-width: 2px;
+}
+
+
+.navbar{
+    background-color: var(--dark-blue);
+}
+.main-btn{
+    background-color: var(--red);
+    color: var(--yellow);
+    text-transform: capitalize;
+}
+.nav-link{
+    color: white;
+    font-size: 19px;
+}
+.nav-link:hover{
+    color: #389EB6;
+}
+.btn-outline-success {
+    border-color: #D1475C;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: #D1475C;
+    padding: 8px 20px;
+}
+.btn-outline-success:hover {
+ 
+    background-color: #D1475C;
+   
+}
+.nav-item:focus,
+.nav-link.active,
+.nav-link:hover{
+    color: #ffc400;
+}
+
+/*************start landing**************/
+.landing{
+    background-color: var(--dark-blue);
+    min-height: calc(100vh - 70px);
+}
+/*************end landing**************/
+.main-title::after{
+    content: '';
+    position: absolute;
+    bottom: -31%;
+    left: 50%;
+    width: 100px;
+    height: 2px;
+    background: var(--dark-blue);
+    transform: translateX(-50%);
+}
+/****************start features**************/
+.features{
+    background-color: #ddd;
+}
+.feat  .fa-solid.fa-1{
+    color: red;
+    font-size: 20px;
+}
+.icon-folder{
+    height: 200px;
+}
+.icon-folder svg{
+  left: 50%;
+  transform: translateX(-50%);
+}
+.icon-folder .number{
+      font-size: 12rem;
+      color: var(--section-color);
+}
+.icon-folder .icon{
+    padding-bottom: 10px;
+   color: var(--dark-blue);
+}
+.feat h2{
+    font-size: 20px;
+    color: var(--yellow);
+}
+/*************end features**************/
+
+/*************start our work**************/
+.our-work{
+    background-color: var(--section-color);
+}
+.our-work ul li{
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.our-work ul .active{
+    background: var(--red);
+    color: var(--yellow);
+}
+.our-work ul li:not(.active):hover{
+    color: var(--yellow);
+
+}
+.our-work .box{
+    padding: 5px;
+    overflow: hidden;
+}
+/*************end our work**************/
+/*************start stuff**************/
+.stuff .desciption{
+    max-width: 500px;
+}
+/*************end stuff**************/
+
+/*********************start team****************/
+.team .container > h4{
+ color: var(--yellow);
+ text-transform: capitalize;
+ 
+}
+.team{
+    background:#82ccdd;
+
+}
+.team .col-lg-3 h4{
+    background: #60a3bc;
+    padding:10px 0;
+
+}
+.team blockquote{
+    background: #ddd;
+    margin: 0;
+}
+/*********************end team****************/
+/*********************start teach****************/
+.teach{
+    background: #ddd;
+}
+/*********************end teach****************/
+
+/*********************start project****************/
+.project{
+    background-color: #333;
+}
+.project p{
+    color: #777;
+}
+/*********************end project****************/
+/*********************start subscripte****************/
+.subscripe{
+    background-color: var(--yellow);
+}
+.subscripe input{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+.subscripe span{
+    text-transform: capitalize;
+    margin-bottom: 15px;
+
+    
+}
+.subscripe button{
+    border-radius: 20px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+
+}
+/*********************end subscripte****************/
